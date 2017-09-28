@@ -2,12 +2,12 @@ __author__ = 'nbortolotti'
 
 import os
 import sys
-import tensorflow as tf
-import arithmetic_operators
-from unittest import TestCase
 
-myPath = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, myPath + '/../')
+sys.path.insert(0, os.path.abspath('.'))
+
+import tensorflow as tf
+from arithmetic_operators import add_operation, subtract_operation
+from unittest import TestCase
 
 
 class GeneralMain(TestCase):
@@ -19,7 +19,7 @@ class GeneralMain(TestCase):
         b = tf.constant(int(4))
         c = tf.constant(int(7))
 
-        result = arithmetic_operators.add_operation(a, b)
+        result = add_operation(a, b)
         self.assertTrue(tf.assert_equal(result, c))
 
     def test_subtract(self):
@@ -27,5 +27,5 @@ class GeneralMain(TestCase):
         b = tf.constant(int(3))
         c = tf.constant(int(7))
 
-        result = arithmetic_operators.subtract_operation(a, b)
+        result = subtract_operation(a, b)
         self.assertTrue(tf.assert_equal(result, c))
