@@ -1,9 +1,13 @@
 __author__ = 'nbortolotti'
 
+import os
+import sys
 import tensorflow as tf
 import arithmetic_operators
-
 from unittest import TestCase
+
+myPath = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, myPath + '/../')
 
 
 class GeneralMain(TestCase):
