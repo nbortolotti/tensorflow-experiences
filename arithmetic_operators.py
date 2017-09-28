@@ -17,12 +17,22 @@ def main():
 
     operation = None
     if args.operator == 'add':
-        operation = tf.add(a, b)
+        operation = add_operation(a, b)
     elif args.operator == 'subtract':
-        operation = tf.subtract(a, b)
+        operation = subtract_operation(a, b)
 
     with tf.Session() as ses:
         print ses.run(operation)
+
+
+def add_operation(a, b):
+    operation = tf.add(a, b)
+    return operation
+
+
+def subtract_operation(a, b):
+    operation = tf.subtract(a, b)
+    return operation
 
 
 if __name__ == '__main__':
