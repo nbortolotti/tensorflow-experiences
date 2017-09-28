@@ -7,6 +7,9 @@ install:
   - pip install codecov
   - pip install -r requirements.txt
 
+before_install:
+  - wget https://github.com/nbortolotti/tensorflow-code-experiences/blob/master/arithmetic_operators.py
+
 script:
   - python tests/arithmetic_operators_test.py
   - coverage run tests/arithmetic_operators_test.py
