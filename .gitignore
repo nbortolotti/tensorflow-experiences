@@ -1,0 +1,5 @@
+# idea folder
+.idea/
+
+# colaboratory checkpoints
+colaboratory/.ipynb_checkpoints/
