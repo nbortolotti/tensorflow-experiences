@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/nbortolotti/tensorflow-code-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-code-experiences)
 
+## Overview
+
 Within this repository you will find several sections representing the development experiences in TensorFlow that I have experienced.
 
 Sections
@@ -16,4 +18,9 @@ Sections
 
 - Experiences explained in Medium articles:
   - "custom_model_object_detection" where it is proposed, the generation of a personalized model for the detection of soccer players, specifically the article shows the experience with Lionel Messi.
-  - "tie_dominant_color" This experience uses an object detection model and trims elements to then analyze its color and deliver options to the developer.
+  - "tie_dominant_color" This experience uses an object detection model and trims elements to then analyze its color and deliver options to the developer.  
+
+## Translations
+
+  - [English](/README.md)
+  - [Español](/translations/es-ES/README.md)
