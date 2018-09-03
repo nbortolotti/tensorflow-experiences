@@ -2,4 +2,4 @@ files:
   - source: '*.md'
     ignore:
       - translations
-    translation: /translations/%locale%/%original_path%%original_file_name%
+    translation: /translations/%locale%/%original_path%/%original_file_name%
