@@ -22,5 +22,5 @@ Sections
 
 ## Translations
 
-    * [English](/README.md)
-    * [Español](/translations/es-ES/README.md)
+  - [English](/README.md)
+  - [Español](/translations/es-ES/README.md)
