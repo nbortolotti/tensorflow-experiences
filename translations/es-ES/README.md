@@ -1,20 +1,20 @@
-# TensorFlow Code Experiences
+# Experiencias de desarrollo en TensorFlow
 
 [![Build Status](https://travis-ci.org/nbortolotti/tensorflow-code-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-code-experiences)
 
-Within this repository you will find several sections representing the development experiences in TensorFlow that I have experienced.
+Dentro de este repositorio usted encontrará varias secciones representando las experiencias de desarrollo en TensorFlow que he experimentado.
 
-Sections
+Secciones
 
-- **Colaboratory**: here you can find some experiences represented in Colaboratory, the simplicity and flexibility of the tool make the development of examples and tests directly in the cloud proposed by Google very attractive.
+- **Colaboratory**: aquí usted puede encontrar algunas experiencias representadas en Colaboratory, la simplicidad y flexibilidad de la herramienta hacen muy atractivo el desarrollo de ejemplos y pruebas directamente en la nube propuesta por Google.
 
-- **Jupyter**: here you can find some examples in a pure Jupyter format, these examples often need some libraries and elements that are not totally compatible with Colaboratory and that require a traditional local environment.
+- **Jupyter**: aquí usted puede encontrar algunos ejemplos en un formato Jupyter puro, estos ejemplos muchas veces necesitan algunas librerías y elementos que no son totalmente compatibles con Colaboratory y que requieren de un entorno local tradicional.
 
-- **experiences**: these experiences are directly related in an ebook where I’m also including academic content on many of these concepts related to TensorFlow and Machine Learning.
+- **experiences**: experiences: estas experiencias están directamente relacionadas en un ebook en donde además estoy incluyendo contenido académico sobre muchos de los conceptos relacionados a TensorFlow y Machine Learning.
 
-- **Python scripts and their tests**: there are some python scripts that represent simple practices on TensorFlow. These will be migrated promptly to order them in a specific section.
+- **Python scripts and their tests**: existen algunos scripts python que representan prácticas simple sobre TensorFlow. Estos serán migrados prontamente para ordenarlos en una sección específica.
 
-- Experiences explained in Medium articles:
+- Experiencias explicadas en artículos Medium:
   
-  - "custom_model_object_detection" where it is proposed, the generation of a personalized model for the detection of soccer players, specifically the article shows the experience with Lionel Messi.
-  - "tie_dominant_color" This experience uses an object detection model and trims elements to then analyze its color and deliver options to the developer.
+  - “custom_model_object_detection” donde se propone la generación de un modelo personalizado para la detección de jugadores de fútbol, en concreto el artículo muestra la experiencia con Lionel Messi.
+  - “tie_dominant_color” esta experiencia utiliza un modelo de object detection y recorta elementos para luego analizar su color y entregar opciones al desarrollador.
