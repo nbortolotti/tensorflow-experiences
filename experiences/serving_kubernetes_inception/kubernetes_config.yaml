@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: iris-deployment
+  name: inception-retrained-deployment
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: iris-server
+        app: inception-retrained-server
     spec:
       containers:
-      - name: iris-container
-        image: nbortolotti/serving_iris:version2
+      - name: inception-retrained-container
+        image: nbortolotti/serving_inception3_poets
         ports:
         - containerPort: 8501
 ---
@@ -19,12 +19,12 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    run: iris-service
-  name: iris-service
+    run: inception-retrained-service
+  name: inception-retrained-service
 spec:
   ports:
   - port: 8501
     targetPort: 8501
   selector:
-    app: iris-server
+    app: inception-retrained-server
   type: LoadBalancer

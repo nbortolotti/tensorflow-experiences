@@ -3,3 +3,7 @@
 
 # colaboratory checkpoints
 colaboratory/.ipynb_checkpoints/
+
+# config files
+*.json
+*.env
