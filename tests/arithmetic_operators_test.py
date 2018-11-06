@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 import tensorflow as tf
-from arithmetic_operators import add_operation, subtract_operation
+from tf_code_style.arithmetic_operators import add_operation, subtract_operation
 from unittest import TestCase
 
 
