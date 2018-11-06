@@ -24,3 +24,8 @@ experiences/object_detection_5steps/slim/*
 # config files
 *.json
 *.env
+
+*.gz
+
+# python
+*.pyc
