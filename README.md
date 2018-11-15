@@ -1,6 +1,6 @@
 # TensorFlow Experiences
 
-[![Build Status](https://travis-ci.org/nbortolotti/tensorflow-code-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-code-experiences)
+[![Build Status](https://travis-ci.org/nbortolotti/tensorflow-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-experiences)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/tensorflow-experiences/localized.svg)](https://crowdin.com/project/tensorflow-experiences)
 
 ## Overview
