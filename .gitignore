@@ -21,6 +21,9 @@ experiences/object_detection_5steps/ssd_inception_v2_coco_2018_01_28/*
 experiences/object_detection_5steps/object_detection/*
 experiences/object_detection_5steps/slim/*
 
+#jupyter checkpoints
+jupyter/.ipynb_checkpoints/
+
 # config files
 *.json
 *.env
