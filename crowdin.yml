@@ -1,1 +1,11 @@
-files: []
+files:
+  - source: '*.md'
+    ignore:
+      - translations
+      - /translations/*.*
+    translation: /translations/%locale%/%original_path%/%original_file_name%
+  - source: '*.ipynb'
+    ignore:
+      - translations
+      - /translations/*.*
+    translation: /translations/%locale%/%original_path%/%original_file_name%

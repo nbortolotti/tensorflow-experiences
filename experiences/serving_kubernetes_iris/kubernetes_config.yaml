@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: iris-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: iris-server
+    spec:
+      containers:
+      - name: iris-container
+        image: nbortolotti/serving_iris:version2
+        ports:
+        - containerPort: 8501
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: iris-service
+  name: iris-service
+spec:
+  ports:
+  - port: 8501
+    targetPort: 8501
+  selector:
+    app: iris-server
+  type: LoadBalancer
