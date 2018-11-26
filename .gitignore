@@ -2,7 +2,7 @@
 .idea/
 
 # colaboratory checkpoints
-colaboratory/.ipynb_checkpoints/
+colaboratory/.ipynb_checkpoints/*
 
 #experiences - object_detection_servingexporter
 experiences/object_detection_servingexporter/models/*
@@ -22,7 +22,7 @@ experiences/object_detection_5steps/object_detection/*
 experiences/object_detection_5steps/slim/*
 
 #jupyter checkpoints
-jupyter/.ipynb_checkpoints/
+jupyter/.ipynb_checkpoints/*
 
 # config files
 *.json
