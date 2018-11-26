@@ -1,6 +1,6 @@
 # Experiencias de desarrollo en TensorFlow
 
-[![Build Status](https://travis-ci.org/nbortolotti/tensorflow-code-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-code-experiences)
+[![Build Status](https://travis-ci.org/nbortolotti/tensorflow-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-experiences)
 
 ## Información general
 
