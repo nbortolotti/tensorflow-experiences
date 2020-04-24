@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/nbortolotti/tensorflow-experiences.svg?branch=master)](https://travis-ci.org/nbortolotti/tensorflow-experiences)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/tensorflow-experiences/localized.svg)](https://crowdin.com/project/tensorflow-experiences)
 [![Slack](https://img.shields.io/badge/slack--channel-green.svg?logo=slack&longCache=true)](http://tensorflowexperiences.slack.com/) 
-[![Join the chat at https://gitter.im/tensorflow-experiences/Lobby](https://badges.gitter.im/tensorflow-experiences/Lobby.svg)](https://gitter.im/tensorflow-experiences/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Overview
 
